@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["src\\assets\\style\\_base.scss","src\\assets\\style\\_variables.scss"],"names":[],"mappings":"AAEA,KACE,SACA,sBACA,iBCLW","sourcesContent":["@use \"./variables\" as var;\r\n\r\nbody {\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n  background-color: var.$color-gray;\r\n}","$color-gray: #DADADA;"]}
