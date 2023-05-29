@@ -10,49 +10,23 @@
 	<body>
 		<div class="player">
 			<div class="player__display">
-				<div class="player__images">
-					<img
-						class="player__image-prev"
-						src="src/assets/images/img-1.jpg"
-						alt="" />
-					<img
-						class="player__image-current"
-						src="src/assets/images/img-2.jpg"
-						alt="" />
-					<img
-						class="player__image-next"
-						src="src/assets/images/img-3.jpg"
-						alt="" />
-				</div>
+				<div id="player-images" class="player__images"></div>
 				<div class="player__info">
-					<span class="player__title">Title</span>
-					<span class="player__author">Author</span>
+					<span id="song-title" class="player__title"></span>
+					<span id="song-author" class="player__author"></span>
 				</div>
 			</div>
+			<audio id="player-audio"></audio>
 			<div class="player__controls">
-				<img src="src/assets/icons/btn-replay.svg" alt="" />
-				<img src="src/assets/icons/btn-prev.svg" alt="" />
-				<img src="src/assets/icons/btn-play.svg" alt="" />
-				<img src="src/assets/icons/btn-next.svg" alt="" />
-				<img src="src/assets/icons/btn-stop.svg" alt="" />
+				<img id="btn-replay" src="src/assets/icons/btn-replay.svg" alt="" />
+				<img id="btn-prev" src="src/assets/icons/btn-prev.svg" alt="" />
+				<img id="btn-play" src="src/assets/icons/btn-play.svg" alt="" />
+				<img id="btn-next" src="src/assets/icons/btn-next.svg" alt="" />
+				<img id="btn-stop" src="src/assets/icons/btn-stop.svg" alt="" />
 			</div>
 			<div class="player__credits">
-				<span class="player__credits-btn">Credits</span>
-				<div class="player__credits-container">
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-						accusamus et exercitationem ab saepe dignissimos quidem adipisci
-						iusto eos rem? Dicta consequatur itaque commodi officiis, expedita
-						illo illum! Aut dignissimos, nobis fugit distinctio doloribus minus
-						odio exercitationem animi possimus amet rerum ea culpa officia
-						tenetur ducimus laudantium. Accusamus, optio rem?
-					</p>
-
-					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-						Exercitationem, adipisci.
-					</p>
-				</div>
+				<span id="credits-btn" class="player__credits-btn">Credits</span>
+				<div id="song-credits" class="player__credits-container"></div>
 			</div>
 		</div>
 		<script type="module" src="/main.js"></script>
